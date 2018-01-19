@@ -1,6 +1,6 @@
-var ScoringHelper = require( './ScoringHelper' );
+var ScoringService = require( './ScoringService' );
 
-class HighCardHelper extends ScoringHelper{
+class HighCard extends ScoringService{
     getScore(  sets, flushes, handScore  ){
         var self = this;
         var data = pokerData.getData();
@@ -16,4 +16,4 @@ class HighCardHelper extends ScoringHelper{
         return handScore;
     }
 }
-module.exports = HighCardHelper;
+module.exports = HighCard;

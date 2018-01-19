@@ -84,6 +84,20 @@ module.exports = {
             },
             cardValue: "<span style='color:red' title=\"Two of Diamonds\"><b>3 &diams;</b></span>",
             position: "comm_c4"
+        },{
+            card: {
+                "order":"4",
+                "value" : "J",
+                "name": "Jack"
+            },
+            suit: {
+                "name":"Diamonds",
+                "key":"3",
+                "color":"red",
+                "symbol":"&diams;"
+            },
+            cardValue: "<span style='color:black' title=\"Jack of Diamonds\"><b>2 &diams;</b></span>",
+            position: "comm_c0"
         }
     ],
     "handHeartsFlush":  [
@@ -114,7 +128,7 @@ module.exports = {
                 "symbol":"&spades;"
             },
             cardValue: "<span style='color:black' title=\"Two of Spades\"><b>2 &spades;</b></span>",
-            position: "p0_c0"
+            position: "p0_c1"
         },{
             card: {
                 "order":"c",
@@ -128,7 +142,7 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:red' title=\"Three of Hearts\"><b>3 &hearts;</b></span>",
-            position: "comm_c1"
+            position: "comm_c0"
         },{
             card: {
                 "order":"a",
@@ -142,7 +156,7 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:red' title=\"Five of Hearts\"><b>5 &hearts;</b></span>",
-            position: "comm_c2"
+            position: "comm_c1"
         },{
             card: {
                 "order":"4",
@@ -156,7 +170,7 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:black' title=\"Jack of Hearts\"><b>2 &hearts;</b></span>",
-            position: "comm_c3"
+            position: "comm_c2"
         },{
             card: {
                 "order":"1",
@@ -170,7 +184,21 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:red' title=\"Two of Hearts\"><b>3 &hearts;</b></span>",
-            position: "comm_c4"
+            position: "comm_c3"
+        },{
+            card: {
+                "order":"4",
+                "value" : "J",
+                "name": "Jack"
+            },
+            suit: {
+                "name":"Diamonds",
+                "key":"3",
+                "color":"red",
+                "symbol":"&diams;"
+            },
+            cardValue: "<span style='color:black' title=\"Jack of Diamonds\"><b>2 &diams;</b></span>",
+            position: "comm_c0"
         }
     ],
     "handStraight":  [
@@ -201,7 +229,7 @@ module.exports = {
                 "symbol":"&spades;"
             },
             cardValue: "<span style='color:black' title=\"Four of Spades\"><b>2 &spades;</b></span>",
-            position: "p0_c0"
+            position: "p0_c1"
         },{
             card: {
                 "order":"c",
@@ -215,7 +243,7 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:red' title=\"Three of Hearts\"><b>3 &hearts;</b></span>",
-            position: "comm_c1"
+            position: "comm_c0"
         },{
             card: {
                 "order":"a",
@@ -229,7 +257,7 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:red' title=\"Five of Hearts\"><b>5 &hearts;</b></span>",
-            position: "comm_c2"
+            position: "comm_c1"
         },{
             card: {
                 "order":"4",
@@ -243,7 +271,7 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:black' title=\"Jack of Hearts\"><b>2 &hearts;</b></span>",
-            position: "comm_c3"
+            position: "comm_c2"
         },{
             card: {
                 "order":"1",
@@ -257,7 +285,21 @@ module.exports = {
                 "symbol":"&hearts;"
             },
             cardValue: "<span style='color:red' title=\"Two of Hearts\"><b>3 &hearts;</b></span>",
-            position: "comm_c4"
+            position: "comm_c3"
+        },{
+            card: {
+                "order":"4",
+                "value" : "J",
+                "name": "Jack"
+            },
+            suit: {
+                "name":"Diamonds",
+                "key":"3",
+                "color":"red",
+                "symbol":"&diams;"
+            },
+            cardValue: "<span style='color:black' title=\"Jack of Diamonds\"><b>2 &diams;</b></span>",
+            position: "comm_c2"
         }
     ],
 };

@@ -1,6 +1,6 @@
-var DealHelper = require( './DealHelper' );
+var DealService = require( './DealService' );
 
-class DealToCommunity extends DealHelper{
+class DealToCommunity extends DealService{
     dealCards( numberOfPlayers, cardCount, cardsToDealThisRound, howToDealThisRound, remainingDeck ){
         var nextCardToPlay = this.findFirstUnplayedCard( "comm", cardCount.cards_already_dealt, cardsToDealThisRound );
         for( var c = nextCardToPlay; c < ( cardsToDealThisRound + nextCardToPlay ); c++ ){

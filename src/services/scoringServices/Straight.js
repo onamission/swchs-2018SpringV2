@@ -1,6 +1,6 @@
-var ScoringHelper = require( './ScoringHelper' );
+var ScoringService = require( './ScoringService' );
 
-class StraightHelper extends ScoringHelper{
+class Straight extends ScoringService{
     getScore( sets, flushes, handScore ){
         var self = this;
         var data = pokerData.getData();
@@ -36,4 +36,4 @@ class StraightHelper extends ScoringHelper{
         return handScore;
     }
 }
-module.exports = StraightHelper;
+module.exports = Straight;

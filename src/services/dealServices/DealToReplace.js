@@ -1,6 +1,6 @@
-var DealHelper = require( './DealHelper' );
+var DealService = require( './DealService' );
 
-class DealToReplace extends DealHelper{
+class DealToReplace extends DealService{
     dealCards( numberOfPlayers, cardCount, cardsToDealThisRound, howToDealThisRound, remainingDeck ){
         var sel = $(".selected > div.card.front");
         // var sel = $(".selected .front");

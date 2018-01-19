@@ -1,7 +1,7 @@
-var ScoringHelper = require( './ScoringHelper' );
+var ScoringService = require( './ScoringService' );
 
 
-class FlushHelper extends ScoringHelper{
+class Flush extends ScoringService{
     getScore( sets, flushes, handScore ){
         var self = this;
         var data = pokerData.getData();
@@ -41,4 +41,4 @@ class FlushHelper extends ScoringHelper{
         return handScore;
     }
 }
-module.exports = FlushHelper
+module.exports = Flush

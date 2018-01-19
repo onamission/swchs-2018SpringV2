@@ -1,4 +1,4 @@
-class DealHelper{
+class DealService{
     findFirstUnplayedCard( player, cards, cardsThisRound ){
         var nextCardFound = false;
         var nextCardToPlay = cards;
@@ -15,4 +15,4 @@ class DealHelper{
         return nextCardToPlay;
     }
 }
-module.exports = DealHelper;
+module.exports = DealService;

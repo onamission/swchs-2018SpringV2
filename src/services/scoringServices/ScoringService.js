@@ -1,6 +1,6 @@
 var cardModel = new( require( '../models/Cards' ))();
 
-class ScoringHelper{
+class ScoringService{
     getSetsAndFlushes( hand, player ){
         var sets = [];
         var flushes = [];
@@ -13,7 +13,7 @@ class ScoringHelper{
 			if( !flushes[ handCard.suit.name ] ){ flushes[ handCard.suit.name ] = []; }
 			flushes [handCard.suit.name ].push( handCard );
 		});
-        return { sets: sets, flushes: flushes };
+        return { hand : hand, sets: sets, flushes: flushes };
     }
 
     addClassByElementId( eleId, style ){
@@ -34,4 +34,4 @@ class ScoringHelper{
         return  String( numbr ).padStart( 3, "0" );
     }
 }
-module.exports = ScoringHelper;
+module.exports = ScoringService;
