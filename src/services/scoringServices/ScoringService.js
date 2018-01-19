@@ -1,4 +1,4 @@
-var cardModel = new( require( '../models/Cards' ))();
+var cardModel = new( require( '../../models/Cards' ))();
 
 class ScoringService{
     getSetsAndFlushes( hand, player ){
