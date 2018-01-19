@@ -7,7 +7,7 @@
         "playerCards" : 5,
         "dealOrder": {
             "1":{"startPosition":0,"cardsToDeal":5,"dealTo":"players","cardDirection": "down"},
-            "2":{"startPosition":0,"cardsToDeal":3,"dealTo":"replace","cardDirection": "down"},
+            "2":{"startPosition":0,"cardsToDeal":3,"dealTo":"replace","cardDirection": "down"}
         },
         "replacement": 3,
         "opp_move": "none",
