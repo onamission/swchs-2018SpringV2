@@ -6,8 +6,8 @@
         "communityCards" : 0,
         "playerCards" : 5,
         "dealOrder": {
-            "1":{"cardsToDeal":5,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":3,"dealTo":"replace","cardDirection": "down"},
+            "1":{"startPosition":0,"cardsToDeal":5,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":0,"cardsToDeal":3,"dealTo":"replace","cardDirection": "down"},
         },
         "replacement": 3,
         "opp_move": "none",
@@ -22,9 +22,9 @@
         "communityCards" : 0,
         "playerCards" : 5,
         "dealOrder": {
-            "1":{"cardsToDeal":3,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":1,"dealTo":"players","cardDirection": "down"},
-            "3":{"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
+            "1":{"startPosition":0,"cardsToDeal":3,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":3,"cardsToDeal":1,"dealTo":"players","cardDirection": "down"},
+            "3":{"startPosition":4,"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
         },
         "replacement": 0,
         "opp_move": "none",
@@ -39,11 +39,11 @@
         "communityCards" : 0,
         "playerCards" : 5,
         "dealOrder": {
-            "1":{"cardsToDeal":1,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "3":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "4":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "6":{"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
+            "1":{"startPosition":0,"cardsToDeal":1,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":1,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "3":{"startPosition":2,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "4":{"startPosition":3,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "6":{"startPosition":4,"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
         },
         "replacement": 0,
         "opp_move": "none",
@@ -58,12 +58,12 @@
         "communityCards" : 0,
         "playerCards" : 7,
         "dealOrder": {
-            "1":{"cardsToDeal":2,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "3":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "4":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "5":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "6":{"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
+            "1":{"startPosition":0,"cardsToDeal":2,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":2,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "3":{"startPosition":3,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "4":{"startPosition":4,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "5":{"startPosition":5,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "6":{"startPosition":6,"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
         },
         "replacement": 0,
         "opp_move": "none",
@@ -78,12 +78,12 @@
         "communityCards" : 0,
         "playerCards" : 7,
         "dealOrder": {
-            "1":{"cardsToDeal":2,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "3":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "4":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "5":{"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
-            "6":{"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
+            "1":{"startPosition":0,"cardsToDeal":2,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":2,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "3":{"startPosition":3,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "4":{"startPosition":4,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "5":{"startPosition":5,"cardsToDeal":1,"dealTo":"players","cardDirection": "up"},
+            "6":{"startPosition":6,"cardsToDeal":1,"dealTo":"players","cardDirection": "down"}
         },
         "replacement": 0,
         "opp_move": "none",
@@ -98,10 +98,10 @@
         "communityCards" : 5,
         "playerCards" : 2,
         "dealOrder": {
-            "1":{"cardsToDeal":2,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":3,"dealTo":"community","cardDirection": "up"},
-            "3":{"cardsToDeal":1,"dealTo":"community","cardDirection": "up"},
-            "4":{"cardsToDeal":1,"dealTo":"community","cardDirection": "up"}
+            "1":{"startPosition":0,"cardsToDeal":2,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":0,"cardsToDeal":3,"dealTo":"community","cardDirection": "up"},
+            "3":{"startPosition":3,"cardsToDeal":1,"dealTo":"community","cardDirection": "up"},
+            "4":{"startPosition":4,"cardsToDeal":1,"dealTo":"community","cardDirection": "up"}
         },
         "replacement": 0,
         "opp_move": "none",
@@ -116,10 +116,10 @@
         "playerCards" : 4,
         "numCards": 9,
         "dealOrder": {
-            "1":{"cardsToDeal":4,"dealTo":"players","cardDirection": "down"},
-            "2":{"cardsToDeal":3,"dealTo":"community","cardDirection": "up"},
-            "3":{"cardsToDeal":1,"dealTo":"community","cardDirection": "up"},
-            "4":{"cardsToDeal":1,"dealTo":"community","cardDirection": "up"}
+            "1":{"startPosition":0,"cardsToDeal":4,"dealTo":"players","cardDirection": "down"},
+            "2":{"startPosition":0,"cardsToDeal":3,"dealTo":"community","cardDirection": "up"},
+            "3":{"startPosition":3,"cardsToDeal":1,"dealTo":"community","cardDirection": "up"},
+            "4":{"startPosition":4,"cardsToDeal":1,"dealTo":"community","cardDirection": "up"}
         },
         "replacement": 0,
         "opp_move": "none",

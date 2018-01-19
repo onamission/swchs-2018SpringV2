@@ -66,8 +66,16 @@ class BaseModel{
         })
         return retVal;
     }
-
-    sortBy( keyField, direction ){
+/**
+ * sorts an object by keyField with an ability to reverse the order if needed
+ *
+ * @param {string} keyField tells which field to sort by
+ * @param {string} direction Optional: 'asc' (default) or 'desc'
+ * @param {string} type Optional: 'string' (default) or 'number'
+ * @returns
+ * @memberof BaseModel
+ */
+sortBy( keyField, direction, type ){
         if( !keyField ){
             return new Error( 'No Key Field Provided' );
         }
@@ -80,8 +88,8 @@ class BaseModel{
         var keyList = Object.keys( keyedObject );
         var sortedKeys = keyList.sort( function( a, b ){
             // if the values are numbers, sort them as numbers
-            var tempa = parseInt( a ) == a ? parseInt( a ) : a;
-            var tempb = parseInt( b ) == b ? parseInt( b ) : b;
+            var tempa = parseInt( a ) == a || type === 'number' ? parseInt( a ) : a;
+            var tempb = parseInt( b ) == b || type === 'number' ? parseInt( b ) : b;
             if( direction === 'asc' ){
                 return ( tempa < tempb ) ? -1 : 1;
             }else{

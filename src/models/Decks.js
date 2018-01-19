@@ -4,7 +4,7 @@ class Decks{
 /**
  * this gets a new deck of 52 cards
  *
- * @param {number} numberOfDecks
+ * @param {number} numberOfDecks the number of decks to fetch
  * @returns {array} of cards with face value and suit
  * @memberof Decks
  */
@@ -29,8 +29,8 @@ getNewDecks( numberOfDecks ){
 /**
  * gets a new deck(s) and shuffles it in a random order
  *
- * @param {any} numberOfDecks
- * @returns
+ * @param {number} numberOfDecks the number of decks to shuffle together
+ * @returns {array} of cards with face value and suit in random order
  * @memberof Decks
  */
 shuffleDecks( numberOfDecks ){

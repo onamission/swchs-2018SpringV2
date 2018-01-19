@@ -12,6 +12,7 @@
     "chai": "^4.1.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "deepcopy": "^0.6.3",
     "express": "~4.15.5",
     "http": "0.0.0",
     "jade": "~1.11.0",
