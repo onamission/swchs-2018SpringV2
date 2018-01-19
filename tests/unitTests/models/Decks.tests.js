@@ -1,11 +1,11 @@
 var mocha = require( 'mocha' );
 var chia = require( 'chai' );
 var assert = require( 'assert' );
-var decksModel = new( require( "..\\..\\..\\src\\models\\Decks"))();
+var decksModel = new( require( "../../../src/models/Decks"))();
 
 describe("Deck Unit Tests", function(){
     describe("getNewDecks", function(){
-        it("should return a 52 card object  -- 13 in each suit and 4 Aces", function(done){
+        it("should return a 52 card object -- 13 in each suit and 4 Aces", function(done){
             var deck = decksModel.getNewDecks( 1 );
             assert.equal( deck.length, 52 );
             var clubs = deck.filter( cards => cards.suit.name === "Clubs");
@@ -37,7 +37,7 @@ describe("Deck Unit Tests", function(){
         });
     });
     describe("shuffleDecks", function(){
-        it("should return a 52 card object  -- 13 in each suit and 4 Aces", function(done){
+        it("should return a 52 card object -- 13 in each suit and 4 Aces", function(done){
             var deck = decksModel.shuffleDecks( 1 );
             assert.equal( deck.length, 52 );
             var clubs = deck.filter( cards => cards.suit.name === "Clubs");

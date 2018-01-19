@@ -5,7 +5,7 @@ var scoringHelper = new( require( "../../../src/scoringHelpers/ScoringHelper"))(
 var scoringHelperData = require( '../../testData/handTestData');
 
 describe("Scoring Helper Unit Tests (using CardsModel)", function(){
-    describe.only("getSetsAndFlushes tests", function(){
+    describe("getSetsAndFlushes tests", function(){
         it("should return set of arrays to determine pairs, three of a kind, etc", function(done){
             var hand =scoringHelperData.handThreeTwos;
             var handScore = scoringHelper.getSetsAndFlushes( hand, "0" );

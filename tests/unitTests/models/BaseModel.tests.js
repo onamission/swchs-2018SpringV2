@@ -1,7 +1,7 @@
 var mocha = require( 'mocha' );
 var chia = require( 'chai' );
 var assert = require( 'assert' );
-var cardsModel = new( require( "..\\..\\..\\src\\models\\Cards"))();
+var cardsModel = new( require( "../../../src/models/Cards"))();
 
 describe("BaseModel Unit Tests (using CardsModel)", function(){
     describe("getters tests", function(){

@@ -1,5 +1,5 @@
 
-var jsonCLient = new( require( "..\\clients\\JsonData"))();
+var jsonCLient = new( require( "../clients/JsonData"))();
 var className;
 
 class BaseModel{

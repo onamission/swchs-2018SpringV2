@@ -1,7 +1,7 @@
 var mocha = require( 'mocha' );
 var chia = require( 'chai' );
 var assert = require( 'assert' );
-var jsonDataClient = new( require( "..\\..\\..\\src\\clients\\JsonData"))();
+var jsonDataClient = new( require( "../../../src/clients/JsonData"))();
 
 describe("JsonData Unit Tests", function(){
     describe("get Data", function(){
