@@ -2,7 +2,7 @@ var gamesInstance = new( require('../models/Games'))();
 var gameBoardService = new( require( '../services/setupServices/GameBoard'))();
 
 // Display the Gameboard.
-exports.setupGameBoard = function(req, res) {
+exports.setup_game_board = function(req, res) {
     var gameName = req.params.gameName;
     var playerCount = req.params.playerCount;
     var game = gamesInstance.getBy( "name", gameName );

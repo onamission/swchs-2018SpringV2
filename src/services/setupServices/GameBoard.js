@@ -1,5 +1,5 @@
 class GameBoard{
-    communityCardArea( communityCardCount ){
+    communityCards( communityCardCount ){
         var communityContent = '';
         if( communityCardCount ){
             communityContent = "<div id=\"comm-board\"><div class='communityName'>Community Cards</div>";
@@ -50,7 +50,7 @@ class GameBoard{
     }
 
 
-    playersCardArea( playerCount, playerCardCount ){
+    playerArea( playerCount, playerCardCount ){
         var players = this.getPlayers( playerCount );
         var playerContents = [];
         var playerBoardContents = "";

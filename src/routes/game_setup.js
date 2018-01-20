@@ -1,10 +1,9 @@
-// game_setup.js - Game Setup route module.
-
 var express = require('express');
 var router = express.Router();
 
-var gameboardController = require('../controllers/gameboardController');
+var gameboard_controller = require( '../controllers/gameboardController' );
 
-router.get('/setupGameboard/:game/players/:playerCount', gameboardController.setupGameBoard );
+router.get('/:gameName/players/:playerCount', gameboard_controller.setup_game_board );
+router.get('/', gameboard_controller.setup_game_board );
 
 module.exports = router;
