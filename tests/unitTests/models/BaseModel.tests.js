@@ -25,9 +25,9 @@ describe("BaseModel Unit Tests (using CardsModel)", function(){
             assert.equal( res, "Two" );
             done();
         });
-        it("should return an error message if no key provided ", function(done){
+        it("should return the entire data object if no key provided ", function(done){
             var res = cardsModel.get( );
-            assert.equal( res.message, 'No Key Provided' );
+            assert.equal( Object.keys( res).length, 13 );
             done();
         });
     });

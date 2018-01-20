@@ -16,17 +16,14 @@ class BaseModel{
      * @memberof BaseModel
      */
     get( key, field ){
-            if( !key ){
-                return new Error( 'No Key Provided' );
-            }
-            var returnedItem = jsonCLient.getDataFromFile( this.className )[ key ];
-            if( !field ){
-                // if there is no field parameter, then return the whole object
-                return returnedItem;
-            }
-            // otherwise, just return the value of the field for that object
-            return returnedItem[ field ];
-        }
+        var retVal =
+            field && key ?
+                jsonCLient.getDataFromFile( this.className )[ key ][ field ]:
+            key?
+                jsonCLient.getDataFromFile( this.className )[ key ]:
+                jsonCLient.getDataFromFile( this.className );
+        return retVal;
+    }
 
     /**
      * gets a data object based on one of the fields within the object
