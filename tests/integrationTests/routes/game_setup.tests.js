@@ -13,8 +13,8 @@ describe("JsonData Unit Tests", function(){
                     console.log( err );
                     done( err );
                 }
-                assert.equal( Object.keys( res ).length, 13 );
-                assert.equal( res[ 1 ].name, "Ace" );
+                assert.equal( res.status, 200 );
+                assert.equal( ( res.text.length > 3400 ) , true );
                 done();
             })
         });

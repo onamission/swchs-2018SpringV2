@@ -22,10 +22,8 @@
             "name": "Integration Tests",
             "program": "${workspaceFolder}\\node_modules\\mocha\\bin\\_mocha",
             "cwd": "${workspaceRoot}",
-            "env":{
-                "PORT": "3100"
-            },
             "args": [
+                "--colors",
                 "${workspaceFolder}\\tests\\integrationTests\\*\\*.tests.js", "--no-timeouts"
             ]
         },
